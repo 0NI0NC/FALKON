@@ -20,9 +20,6 @@ print("""
 |__/     |__/  |__/|________/|__/  \__/ \______/ |__/  \__/
 """)
 
-if "GOOGLE_API_KEY" not in os.environ:
-    os.environ["GOOGLE_API_KEY"] = getpass.getpass("GOOGLE_API_KEY: NOT FOUND")
-
 class FileWriteTool(BaseTool):
 
     name: str = "File Write Tool"
