@@ -1,5 +1,4 @@
 import os
-import getpass
 from crewai import Agent, Task, Crew
 from crewai_tools import DirectoryReadTool, FileReadTool, BaseTool
 from langchain_community.utilities import WikipediaAPIWrapper
